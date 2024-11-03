@@ -1,0 +1,105 @@
+body{
+	background-color: black;
+	color:white; 
+	font-family: Calibri;
+}
+
+
+
+.links{
+	color:white;
+	text-decoration: none;
+	color:#1cff00;
+	height:30px;
+	border-radius: 6px;
+	padding:4px;
+}
+
+.opc{
+	margin-top: 3px;
+	width:100%;
+	height:45px;
+padding:5px;
+font-size: 13px;
+}
+
+.file-input {
+display: none;
+}
+.custom-button {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 5px;
+width: 40%;
+}
+
+
+@media screen and (max-width: 800px) {
+table {
+width: 90%;
+border-collapse: collapse;
+table-layout: fixed;
+}
+
+.subbutton{
+	width:35%;
+	height:30px;
+	border-radius: 6px;
+	background-color: white;
+	outline: none;
+	border-color:white;
+	cursor:pointer;
+
+}
+
+
+}
+
+@media screen and (min-width: 801px) {
+table {
+width: 70%;
+border-collapse: collapse;
+table-layout: fixed; 
+
+}
+
+.subbutton{
+	width:10%;
+	height:30px;
+	border-radius: 6px;
+	background-color: white;
+	outline: none;
+	border-color:white;
+	cursor:pointer;
+
+}
+
+
+}
+
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: left;
+overflow: hidden;
+text-overflow: ellipsis; 
+white-space: nowrap; 
+border: 1px solid #ddd; 
+padding: 8px;
+}
+
+
+th {
+background-color: #4CAF50;
+color: white;
+}
+
